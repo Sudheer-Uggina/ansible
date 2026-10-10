@@ -1,0 +1,10 @@
+- name: play level varaibles
+  hosts: local
+  connection: local
+  vars: 
+    COURSE: "DEVOPS"
+    TRAINER: "siva"
+  tasks:
+  - name: print varaible
+    ansible.buildin.debug:
+      msg: "Course is: {{ COURSE }}, Trainer is: {{TRAINER }}"
