@@ -1,4 +1,4 @@
-- name: Variable from args
+- name: varaible from args
   hosts: local
   connection: local
   vars:
