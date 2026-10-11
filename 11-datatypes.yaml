@@ -6,12 +6,12 @@
     DURATION: 140 #int
     live: true  #bool
     details: #map/dectionary {}
-    months: 4
-    trainer: "siva"
+     months: 4
+     trainer: "siva"
     TOPICS: #list - 0r []
-    - Linux
-    - shell
-    - ansible
+     - Linux
+     - shell
+     - ansible
   tasks:
   - name: print varaible
     ansible.builtin.debug:
