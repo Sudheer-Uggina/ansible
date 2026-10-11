@@ -1,7 +1,7 @@
--name: demo on datatypes
-hosts: local
-connection: local
-vars: 
+- name: demo on datatypes
+  hosts: local
+  connection: local
+  vars: 
   PROGRAM: "devops with aws"
   DURATION: 140 #int
   live: true  #bool
