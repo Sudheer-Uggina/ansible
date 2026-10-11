@@ -5,9 +5,9 @@
     PROGRAM: "devops with aws"
     DURATION: 140 #int
     live: true  #bool
-    details: #map/dectionary
-      months: 4
-      trainer: "siva"
+    details: #map/dectionary {}
+    months: 4
+    trainer: "siva"
     TOPICS: #list - 0r []
     - Linux
     - shell
