@@ -14,10 +14,10 @@
     - ansible
   tasks:
   - name: print varaible
-  ansible.builtin.debug:
-    msg: |
-      program: {{ PROGRAM }}
-      Duration: {{DURATION}}
-      live: {{live}}
-      details: {{details}}
-      topics: {{TOPICS}}
+    ansible.builtin.debug:
+        msg: |
+          program: {{ PROGRAM }}
+          Duration: {{DURATION}}
+          live: {{live}}
+          details: {{details}}
+          topics: {{TOPICS}}
